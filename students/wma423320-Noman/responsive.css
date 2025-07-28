@@ -372,3 +372,11 @@
     .intro {
         font-size: 2vw;
     }
+
+    .icon-box {
+        justify-content: center;
+    }
+
+    .ib i {
+        font-size: 3vw;
+    }
