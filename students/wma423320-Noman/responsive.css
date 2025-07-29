@@ -466,6 +466,12 @@
         /* width: 24vw; */
     }
 
+    li.head-h2 {
+        font-size: 2vw;
+        font-weight: 700;
+        text-align: center;
+    }
+
     nav {
         padding: 0.5vw 1vw 1vw 0vw;
         margin-left: 5vw;
@@ -482,6 +488,7 @@
 
     .nav-links li a {
         color: black;
+        font-size: 2vw;
     }
 
     .header-mob-btm {
