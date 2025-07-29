@@ -467,7 +467,7 @@
     }
 
     li.head-h2 {
-        font-size: 2vw;
+        font-size: 2.5vw;
         font-weight: 700;
         text-align: center;
     }
@@ -475,6 +475,7 @@
     nav {
         padding: 0.5vw 1vw 1vw 0vw;
         margin-left: 5vw;
+        border: none;
     }
 
     .hamburger {
@@ -520,6 +521,14 @@
         width: 5vw;
         height: 4vw;
         border-radius: 25px;
+    }
+
+    .hs-box-2 h2 {
+        font-size: 2.5vw;
+    }
+
+    .hr-btn {
+        font-size: 2vw;
     }
 
 
