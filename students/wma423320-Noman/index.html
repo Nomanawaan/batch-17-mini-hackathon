@@ -15,60 +15,116 @@
     <!-- container start -->
     <div class="container">
 
-        <!-- header start -->
-        <header>
+        <!-- header desktop start -->
+        <header class="header-desktop">
 
             <div class="header-inn inner">
 
-                <div class="header-left">
+                <div class="header-destop-top">
+                    <div class="header-left">
 
-                    <h1>Etsy</h1>
-                    <div class="response-bar">
-                        <i class="fa-solid fa-bars"></i>
-                        <h4>Categories</h4>
+                        <h1>Etsy</h1>
+                        <div class="response-bar">
+                            <i class="fa-solid fa-bars"></i>
+                            <h4>Categories</h4>
+                        </div>
+
                     </div>
+                    <div class="header-center">
 
+                        <form action="">
+                            <input type="text" placeholder="Search for anything" class="search-bar">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+
+                        </form>
+
+                    </div>
+                    <div class="header-right">
+
+                        <ul class="hr">
+                            <li>Sign in</li>
+                            <li><img src="./images/assets/uk flag.png" alt=""></li>
+                            <li><i class="fa-solid fa-heart"></i></li>
+                            <li><i class="fa-solid fa-gift"></i></li>
+                            <li><i class="fa-solid fa-basket-shopping"></i></li>
+                        </ul>
+
+                    </div>
                 </div>
-                <div class="header-center">
 
-                    <form action="">
-                        <input type="text" placeholder="Search for anything" class="search-bar">
-                        <i class="fa-solid fa-magnifying-glass"></i>
+                <div class="header-destop-btm">
+                    <nav>
 
-                    </form>
+                        <ul class="nav-ul">
+                            <li><i class="fa-solid fa-gift"></i>Gifts</li>
+                            <li>Back to School</li>
+                            <li>Home Favourites</li>
+                            <li>Fashion Finds</li>
+                            <li>Registry</li>
+                            <li>Gifts Cards</li>
+                        </ul>
 
+                    </nav>
                 </div>
-                <div class="header-right">
 
+
+            </div>
+
+        </header>
+        <!-- header desktop end -->
+
+        <!-- header mobile and tablet start -->
+        <header class="header-tab-mob">
+
+            <div class="header-mob-top">
+                <div class="header-left">
+                    <h1>Etsy</h1>
+                </div>
+
+                <div class="header-mob-right">
                     <ul class="hr">
-                        <li>Sign in</li>
+                        <li class="signin">Sign in</li>
                         <li><img src="./images/assets/uk flag.png" alt=""></li>
                         <li><i class="fa-solid fa-heart"></i></li>
                         <li><i class="fa-solid fa-gift"></i></li>
                         <li><i class="fa-solid fa-basket-shopping"></i></li>
                     </ul>
-
                 </div>
+            </div>
 
+            <div class="header-mob-btm">
+                <nav class="navbar">
+                    <ul class="nav-links" id="navLinks">
+                        <li class="head-h2">Browse Categories</li>
+                        <li><a href="#">Fase Delivery: School Finds</a></li>
+                        <li><a href="#">Home & Living</a></li>
+                        <li><a href="#">Art & Collectibles</a></li>
+                        <li><a href="#">Craft Supplies & Tools</a></li>
+                        <li><a href="#">Bags & Purses</a></li>
+                        <li><a href="#">Bath & Beauty</a></li>
+                        <li><a href="#">Books, Films & Music</a></li>
+                        <li><a href="#">Clothing</a></li>
+                        <li><a href="#">Electronic & Accessories</a></li>
+                        <li><a href="#">Jewellery</a></li>
+                        <li><a href="#">Paper & Party Supplies</a></li>
+                        <li><a href="#">Per Supplies</a></li>
+                        <li><a href="#">Shoes</a></li>
+                        <li><a href="#">Toys & Games</a></li>
+                        <li><a href="#">Weddings</a></li>
+                        <li><a href="#">Baby</a></li>
+                        <li><a href="#">Gifts</a></li>
+                    </ul>
+                    <div class="hamburger-desk" onclick="toggleMenu()">☰</div>
+                </nav>
+
+                <div class="search-bar">
+                    <input type="text" placeholder="Search for anything">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
             </div>
 
         </header>
-        <!-- header end -->
-
-        <!-- nav start -->
-        <nav>
-
-            <ul class="nav-ul">
-                <li><i class="fa-solid fa-gift"></i>Gifts</li>
-                <li>Back to School</li>
-                <li>Home Favourites</li>
-                <li>Fashion Finds</li>
-                <li>Registry</li>
-                <li>Gifts Cards</li>
-            </ul>
-
-        </nav>
-        <!-- nav end -->
+        <!-- header mobile and tablet end -->
 
         <!-- hero sec start -->
         <div class="hero-sec">
@@ -674,6 +730,15 @@
 
     </div>
     <!-- container end -->
+
+
+
+    <!-- javascript for hamburger menu -->
+    <script>
+        function toggleMenu() {
+            document.getElementById("navLinks").classList.toggle("active");
+        }
+    </script>
 </body>
 
 </html>

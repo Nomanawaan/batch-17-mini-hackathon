@@ -11,7 +11,7 @@
 /* container css start */
 .container{
     width: 100%;
-    
+    overflow: hidden;
 }
 /* .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     --bs-gutter-x: 0;
@@ -68,7 +68,7 @@ header{
 
 } */
 i.fa-solid.fa-magnifying-glass {
-    background: red;
+    background: #ff5900;
     width: 2vw !important;
     padding: 0.9vw !important;
 }

@@ -1,5 +1,9 @@
 /* responsive for 575px */
 @media only screen and (max-width: 575px) {
+
+
+
+
     .sec1-inn {
         padding: 5vw 2vw;
     }
@@ -95,6 +99,8 @@
         padding: 3vw 6vw;
         margin-top: 2vw;
         margin-bottom: 3vw;
+        font-size: 2.5vw;
+        text-align: center;
     }
 
     .quote-4 {
@@ -159,6 +165,7 @@
 
     .s5-fb {
         width: 46vw;
+        gap: 3vw;
     }
 
     .s5-fb img {
@@ -261,6 +268,10 @@
     .sec-12 h4 {
         font-size: 2.5vw;
         margin-bottom: 2vw;
+    }
+
+    .input-button-wrapper button {
+        font-size: 2vw;
     }
 
     .input-button-wrapper {
@@ -380,3 +391,170 @@
     .ib i {
         font-size: 3vw;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* responsive for tablet screen 1024px */
+@media only screen and (max-width: 1024px) {
+
+    header {
+        width: 96vw;
+        padding: 1vw 0vw 0.2vw 2vw;
+    }
+
+    .header-desktop {
+        display: none;
+    }
+
+    .header- .header-tab-mob {
+        width: 100vw;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2vw 2vw 0 2vw;
+    }
+
+    .header-mob-right ul {
+        display: flex;
+        gap: 1.5vw;
+    }
+
+    .header-mob-right ul li {
+        font-size: 2vw;
+    }
+
+    .header-mob-right ul li img {
+        width: 2.3vw;
+        height: 2vw;
+        border-radius: 30px;
+    }
+
+    .header-mob-top {
+        width: 96vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        left: 7vw;
+        top: 8.2vw;
+        right: 20px;
+        background: #fff;
+        padding: 10px;
+        border-radius: 6px;
+    }
+
+    .nav-links.active {
+        display: flex;
+        margin: 4vw 58vw 0vw 0vw;
+        box-shadow: 0px 1px 5px 1px #b2b2b2;
+        /* width: 24vw; */
+    }
+
+    nav {
+        padding: 0.5vw 1vw 1vw 0vw;
+        margin-left: 5vw;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 2.5vw;
+    }
+
+    .nav-links li {
+        padding-bottom: 2vw;
+    }
+
+    .nav-links li a {
+        color: black;
+    }
+
+    .header-mob-btm {
+        display: flex;
+        align-items: center;
+        width: 90vw;
+        margin-top: 2vw;
+    }
+
+    .search-bar {
+        width: 84vw;
+        display: flex;
+        border: 1px solid black;
+        border-radius: 33px;
+        padding: 0.2vw 0.2vw 0.2vw 1vw;
+    }
+
+    input[type="text"] {
+        width: 80vw;
+        padding: 1vw 0;
+        font-size: 2vw;
+        border-radius: 25px;
+        border: none;
+    }
+
+    .search-bar button {
+        background: pink;
+        border: none;
+        width: 5vw;
+        height: 4vw;
+        border-radius: 25px;
+    }
+
+
+
+
+}
+
+
+/* responsive for desktop screen min with 1025px */
+@media only screen and (min-width: 1025px) {
+    .header-desktop {
+        display: block;
+    }
+
+    .header-tab-mob {
+        display: none;
+    }
+
+    .header-inn {
+        flex-direction: column;
+    }
+
+    .header-destop-top {
+        align-items: center;
+        margin-left: 2vw;
+        display: flex;
+    }
+
+    .header-destop-btm {
+        width: 96vw;
+    }
+
+    .nav-ul {
+        margin: 1vw 0;
+        justify-content: center;
+    }
+
+    i.fa-solid.fa-magnifying-glass {
+        width: 3vw !important;
+        border-radius: 25px;
+    }
+
+
+
+}
